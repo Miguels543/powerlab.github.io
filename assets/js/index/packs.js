@@ -6,7 +6,7 @@ const packs = [
         category: "PACKS",
         price: 272.00,
         originalPrice: 320.00,
-        image: "/assets/img/pack/packdefinition.png",
+        image: "assets/img/pack/packdefinition.png",
         items: ["Proteína Isolate", "Quemador de Grasa", "BCAA"],
         discount: "AHORRA 15%"
     },
@@ -16,7 +16,7 @@ const packs = [
         category: "PACKS",
         price: 304.00,
         originalPrice: 380.00,
-        image: "/assets/img/pack/packvolumen.png",
+        image: "assets/img/pack/packvolumen.png",
         items: ["Proteína Whey", "Creatina Monohidratada", "Ganador de Masa"],
         discount: "AHORRA 20%"
     },
@@ -26,7 +26,7 @@ const packs = [
         category: "PACKS",
         price: 278.80,
         originalPrice: 340.00,
-        image: "/assets/img/pack/packperformance.png",
+        image: "assets/img/pack/packperformance.png",
         items: ["Pre-Entreno", "BCAA", "Proteína de Recuperación"],
         discount: "AHORRA 18%"
     }
@@ -40,7 +40,7 @@ const promociones = [
         category: "PROTEÍNAS",
         originalPrice: 540.00,
         price: 410.00,
-        image: "/assets/img/product/promotion.png",
+        image: "assets/img/product/promotion.png",
         description: "Iso xp Chopina + Creatina + Shaker + energizantes/preentreno. Paquete completo para maximizar rendimiento y recuperación muscular.",
         discount: "24% OFF"
     },
@@ -50,7 +50,7 @@ const promociones = [
         category: "SUPLEMENTOS",
         price: 99.40,
         originalPrice: 140,
-        image: "/assets/img/product/promotion(2).png",
+        image: "assets/img/product/promotion(2).png",
         description: "Dragon pharma + shaker + preentreno/energizantes. Creatina premium para aumentar fuerza y masa muscular con extras para impulsar entrenamientos.",
         discount: "NUEVO"
     },
@@ -60,7 +60,7 @@ const promociones = [
         category: "PROTEÍNAS",
         price: 350.00,
         originalPrice: 485.00,
-        image: "/assets/img/product/promotion(3).png",
+        image: "assets/img/product/promotion(3).png",
         description: "Prostar + Creatina + shaker + energizantes/preentreno. Batidos proteicos para nutrición deportiva instantánea con suplementos para mejorar rendimiento.",
         discount: "28 OFF"
     }

@@ -10,7 +10,7 @@ const promociones = [
         category: "PROTEÍNAS",
         originalPrice: 545.00,
         discountPercentage: 24.6,
-        image: "/assets/img/product/promotion.png",
+        image: "assets/img/product/promotion.png",
         description: "Iso xp Chopina + Creatina Nutrex o Dragon Pharma + Shaker + 2 energizantes x-b + preentreno. Paquete completo diseñado para maximizar tu rendimiento y recuperación muscular con todos los suplementos necesarios. Proteína de alta calidad para construcción muscular y creatina para potenciar fuerza y resistencia durante entrenamientos intensos.",
         features: [
             "80% de contenido proteico para recuperación óptima",
@@ -20,7 +20,7 @@ const promociones = [
             "Incluye shaker, preentreno y energizantes complementarios"
         ],
         additionalImages: [
-            "/assets/img/product/promotion.png"
+            "assets/img/product/promotion.png"
         ]
     },
     {
@@ -29,7 +29,7 @@ const promociones = [
         category: "SUPLEMENTOS",
         originalPrice: 140,
         discountPercentage: 29,
-        image: "/assets/img/product/promotion(2).png",
+        image: "assets/img/product/promotion(2).png",
         description: "Dragon pharma + shaker + 1 preentreno o 2 energizantes x-b. Creatina premium de máxima pureza, uno de los suplementos más estudiados y eficaces para aumentar fuerza, potencia y masa muscular. Incluye shaker y, a elección, un potente preentreno o energizantes para impulsar tus entrenamientos.",
         features: [
             "Aumenta la fuerza muscular en entrenamientos intensos",
@@ -39,7 +39,7 @@ const promociones = [
             "Incluye shaker y suplementos energéticos complementarios"
         ],
         additionalImages: [
-            "/assets/img/product/promotion(2).png"
+            "assets/img/product/promotion(2).png"
         ]
     },
     {
@@ -48,7 +48,7 @@ const promociones = [
         category: "PROTEÍNAS",
         originalPrice: 485.00,
         discountPercentage: 27.8,
-        image: "/assets/img/product/promotion(3).png",
+        image: "assets/img/product/promotion(3).png",
         description: "Prostar + Creatina Nutrex o dragón pharma + shaker + 2 x-b o preentreno. Batidos proteicos listos para beber, ideales para deportistas con necesidad de nutrición instantánea. Incluye creatina premium, shaker profesional y energizantes para potenciar tu rendimiento.",
         features: [
             "Proteína lista para consumir sin preparación necesaria",
@@ -58,7 +58,7 @@ const promociones = [
             "Formato conveniente con suplementos complementarios incluidos"
         ],
         additionalImages: [
-            "/assets/img/product/promotion(3).png"
+            "assets/img/product/promotion(3).png"
         ]
     },
     {
@@ -77,7 +77,7 @@ const promociones = [
             "Perfecta para fases de definición muscular con sabores premium"
         ],
         additionalImages: [
-            "/assets/img/product/promotion(4).jpg"
+            "assets/img/product/promotion(4).jpg"
         ]
     }
 ];

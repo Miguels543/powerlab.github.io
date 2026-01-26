@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerLab - Promociones Especiales</title>
+    <link rel="stylesheet" href="assets/style/promociones/principal.css">
+    <link rel="icon" href="assets/img/logo/logo.ico">
+    <!-- Script principal como módulo -->
+    <script type="module" src="assets/js/index/main.js" defer></script>
+    <script type="module" src="assets/js/js-promo/prin.js" defer></script>
+</head>
+<body class="promociones-page">
+    <div class="announcement-bar">
+        ¡DESCUENTAZO! 30% OFF en todos los productos
+    </div>
+    <nav>
+        <img src="assets/img/logo/logo.png" alt="PowerLab" class="logo">
+        <div class="menu-toggle">☰</div>
+        <div class="nav-links">
+            <a href="index.html">Inicio</a>
+            <a href="promociones.html">Promociones</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="tienda.html">Tienda</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="promo-hero">
+        <div class="hero-content">
+            <h1 class="animated-heading">CYBER <span class="highlight">SUPLEMENTOS</span></h1>
+            <p class="subtitle">Las mejores ofertas en suplementos deportivos</p>
+            <div class="countdown-container">
+                <p>Tiempo restante:</p>
+                <div id="countdown" class="countdown">
+                    <div class="countdown-item">
+                        <span id="days">00</span>
+                        <span class="countdown-label">Días</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="hours">00</span>
+                        <span class="countdown-label">Horas</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="minutes">00</span>
+                        <span class="countdown-label">Minutos</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="seconds">00</span>
+                        <span class="countdown-label">Segundos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promociones Grid -->
+    <section class="promociones-grid-section">
+        <div class="section-header">
+            <h2>Ofertas Imperdibles</h2>
+            <p>Productos seleccionados con grandes descuentos</p>
+        </div>
+        <div class="promociones-grid" id="promociones-grid">
+            <!-- Las promociones se cargarán dinámicamente desde JS -->
+        </div>
+    </section>
+    <!-- Categorías de promociones -->
+    <section class="promo-categories">
+        <div class="section-header">
+            <h2>Descuentos por Categoría</h2>
+            <p>Encuentra las mejores ofertas según tus necesidades</p>
+        </div>
+        
+        <div class="categories-container">
+            <a href="tienda.html" class="category-item">
+                <div class="category-icon">💪</div>
+                <h3>Proteínas</h3>
+                <span class="discount-tag">Hasta 25% OFF</span>
+            </a>
+            <a href="tienda.html" class="category-item">
+                <div class="category-icon">🔋</div>
+                <h3>Creatinas</h3>
+                <span class="discount-tag">Hasta 20% OFF</span>
+            </a>
+            <a href="tienda.html" class="category-item">
+                <div class="category-icon">⚡</div>
+                <h3>Pre-entrenos</h3>
+                <span class="discount-tag">2x1</span>
+            </a>
+            <a href="tienda.html" class="category-item">
+                <div class="category-icon">💊</div>
+                <h3>Vitaminas</h3>
+                <span class="discount-tag">3x2</span>
+            </a>
+            <a href="tienda.html" class="category-item">
+                <div class="category-icon">🏋️</div>
+                <h3>Accesorios</h3>
+                <span class="discount-tag">Hasta 30% OFF</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Banner promocional -->
+    <section class="promo-banner">
+        <div class="banner-content">
+            <h2>PROMOCIÓN EXCLUSIVA ONLINE</h2>
+            <p>Usa el código <strong>POWER10</strong> y obtén 10% adicional en toda la tienda</p>
+            <a href="tienda.html" class="banner-btn">Comprar ahora</a>
+        </div>
+    </section>
+
+    <!-- Promociones por categoría -->
+    <section id="proteinas" class="category-promotions">
+        <div class="section-header">
+            <h2>Proteínas en Oferta</h2>
+            <p>Potencia tu recuperación muscular</p>
+        </div>
+        
+        <div class="category-carousel" id="proteinas-carousel">
+            <!-- Las promociones de proteínas se cargarán dinámicamente desde JS -->
+        </div>
+    </section>
+    <!-- Testimonios -->
+    <section class="testimonials">
+        <div class="section-header">
+            <h2>Lo que dicen nuestros clientes</h2>
+            <p>Experiencias reales con nuestros productos</p>
+        </div>
+        
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <div class="testimonial-image" oncontextmenu="return false" ondragstart="return false">
+                    <img src="assets/img/MiguelS.jpg" alt="Cliente" class="no-select" draggable="false">
+                </div>
+                <div class="testimonial-content">
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="testimonial-text">"Desde que uso la proteína en promoción, mi recuperación muscular ha mejorado notablemente. El sabor es excelente y el precio con descuento es inmejorable."</p>
+                    <p class="testimonial-author">- Miguel Suarez</p>
+                </div>
+            </div>
+            
+            <div class="testimonial">
+                <div class="testimonial-image">
+                    <img src="assets/img/nicole-virhuez.jpg" alt="Cliente">
+                </div>
+                <div class="testimonial-content">
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="testimonial-text">"Aprovecho las promociones para comprar mis suplementos. El 2x1 en pre-entrenos me duró casi 3 meses y la energía que me da es increíble para mis entrenamientos."</p>
+                    <p class="testimonial-author">- Nicole Virhuez</p>
+                </div>
+            </div>
+            
+            <div class="testimonial">
+                <div class="testimonial-image">
+                    <img src="assets/img/antonio-morales.jpg" alt="Cliente">
+                </div>
+                <div class="testimonial-content">
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="testimonial-text">"La creatina micronizada que compré en oferta es de excelente calidad. Se disuelve perfectamente y no tiene ningún sabor extraño. Resultados notables en fuerza."</p>
+                    <p class="testimonial-author">- Antonio Morales</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ sobre promociones -->
+    <section class="promo-faq">
+        <div class="section-header">
+            <h2>Preguntas Frecuentes sobre Promociones</h2>
+            <p>Resolvemos tus dudas</p>
+        </div>
+        
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>¿Cuánto tiempo duran las promociones?</h3>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Nuestras promociones regulares tienen una duración de 7 días. Las promociones especiales pueden durar desde 24 horas hasta un mes. Siempre indicamos la fecha de finalización en cada promoción.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>¿Puedo combinar varias promociones o cupones?</h3>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Generalmente no es posible combinar distintas promociones. Sin embargo, algunas promociones específicas pueden ser combinadas con cupones de descuento. En la descripción de cada promoción se indica si es combinable.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>¿Aplican las promociones para envíos a provincia?</h3>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>¡Sí! Todas nuestras promociones aplican tanto para Lima como para envíos a provincia. Los costos de envío se calculan por separado según la localidad.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>¿Qué pasa si un producto en promoción se agota?</h3>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Las promociones están sujetas a disponibilidad de stock. Si un producto se agota, ofrecemos un cupón de descuento equivalente para tu próxima compra o puedes optar por un producto similar en promoción.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3 class="footer-title">PowerLab</h3>
+                <p class="footer-description">
+                    Suplementos deportivos de alta calidad para deportistas exigentes.
+                </p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/share/1ASR1aojeC/?mibextid=wwXIfr" target="_blank" class="social-link" aria-label="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                    </a>
+                    <a href="https://www.instagram.com/powerlab.pe?igsh=b2syeDVvY3pxbzcz&utm_source=qr" target="_blank" class="social-link" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                    <a href="https://www.tiktok.com/@powerlab.pe?_t=ZM-8uzUEyOuMGD&_r=1" target="_blank" class="social-link" aria-label="TikTok">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg>
+                    </a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=prlab.shop@hotmail.com" target="_blank" class="social-link" aria-label="Correo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3 class="footer-title">CONTÁCTANOS</h3>
+                <div class="contact-info">
+                    <p>+51 994379232</p>
+                    <p>prlab.shop@hotmail.com</p>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3 class="footer-title">MÉTODOS DE PAGO</h3>
+                <ul class="payment-methods">
+                    <li>✓ Tarjetas de crédito/débito</li>
+                    <li>✓ Transferencias bancarias</li>
+                    <li>✓ Yape / Plin</li>
+                    <li>✓ Pago contra entrega</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyright">
+            © 2025. Todos los derechos reservados.
+        </div>
+    </footer>
+
+    <!-- Icono del carrito fijo -->
+    <div class="cart-icon-fixed" id="cart-icon">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjkiIGN5PSIyMSIgcj0iMSI+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIyMSIgcj0iMSI+PC9jaXJjbGU+PHBhdGggZD0iTTEgMWg0bDIuNjggMTMuMzlhMiAyIDAgMCAwIDIgMS42MWg5LjcyYTIgMiAwIDAgMCAyLTEuNjFMMjMgNkg2Ij48L3BhdGg+PC9zdmc+" alt="Cart">
+    </div>
+
+    <!-- Panel lateral del carrito -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <div class="cart-title">
+                <span>Carrito de Compras</span>
+            </div>
+            <button class="cart-close" id="cart-close">×</button>
+        </div>
+        <div id="cartItems">
+            <!-- Los items del carrito se insertarán aquí -->
+        </div>
+        <div class="cart-total-container">
+            <div class="cart-total">
+                Total: S/.<span id="cartTotal">0.00</span>
+            </div>
+            <a id="whatsappLink" class="buy-button" href="#" target="_blank">Comprar por WhatsApp</a>
+        </div>
+    </div>
+</body>
+</html>

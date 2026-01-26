@@ -1,0 +1,109 @@
+
+/* ======================================
+   2. ACCESORIOS DINÁMICOS
+====================================== */
+/* ======================================
+   8. ACCESORIOS
+====================================== */
+.accessories-section {
+    padding: 4rem 5%;
+    background-color: var(--light-gray);
+    position: relative;
+}
+
+.accessories-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 1.5rem;
+    padding: 1rem 0.5rem;
+    margin: 0 -1rem;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Firefox */
+}
+
+.accessories-scroll::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+.accessory-card {
+    flex: 0 0 220px;
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.accessory-card:hover {
+    transform: translateY(-5px);
+}
+
+.accessory-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+.accessory-card h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: var(--dark-gray);
+}
+
+.accessory-price {
+    font-weight: bold;
+    color: var(--blue-color);
+    margin-bottom: 1rem;
+}
+
+.accessory-scroll-buttons {
+    position: absolute;
+    top: 50%;
+    width: 90%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    left: 5%;
+    pointer-events: none;
+}
+
+.accessory-scroll-buttons .scroll-button {
+    pointer-events: auto;
+    opacity: 0.8;
+}
+
+#accesorios-container {
+    display: flex;
+    gap: 1.5rem;
+    padding: 0.5rem;
+}
+
+#accesorios-container .product-card {
+    flex: 0 0 220px;
+    min-width: 220px;
+    max-width: 280px;
+    text-align: center;
+    padding: 0;
+}
+
+#accesorios-container .product-image {
+    height: 180px;
+}
+
+#accesorios-container .product-content h3 {
+    font-size: 1.1rem;
+}
+
+#accesorios-container .product-price {
+    justify-content: center;
+    color: var(--blue-color);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#accesorios-container .btn {
+    margin-top: auto;
+}

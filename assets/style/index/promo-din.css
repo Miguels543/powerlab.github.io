@@ -1,0 +1,50 @@
+
+/* ======================================
+   4. PROMOCIONES DINÁMICAS
+====================================== */
+#promociones-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#promociones-container .product-card {
+    position: relative;
+}
+
+#promociones-container .promotion-tag {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: var(--accent-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    z-index: 1;
+}
+
+#promociones-container .product-price {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#promociones-container .original-price {
+    font-size: 1rem;
+    color: #999;
+    text-decoration: line-through;
+}
+
+#promociones-container .discount-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--accent-color);
+}
+
+#promociones-container .btn {
+    margin-top: auto;
+}

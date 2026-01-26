@@ -6,7 +6,7 @@ const packs = [
         category: "PACKS",
         price: 272.00,
         originalPrice: 320.00,
-        image: "assets/img/pack/packdefinition.png",
+        image: "https://raw.githubusercontent.com/Miguels543/powerlab.github.io/refs/heads/main/assets/img/pack/packdefinition.png",
         items: ["Proteína Isolate", "Quemador de Grasa", "BCAA"],
         discount: "AHORRA 15%"
     },
@@ -16,7 +16,7 @@ const packs = [
         category: "PACKS",
         price: 304.00,
         originalPrice: 380.00,
-        image: "assets/img/pack/packvolumen.png",
+        image: "https://raw.githubusercontent.com/Miguels543/powerlab.github.io/refs/heads/main/assets/img/pack/packvolumen.png",
         items: ["Proteína Whey", "Creatina Monohidratada", "Ganador de Masa"],
         discount: "AHORRA 20%"
     },
@@ -26,7 +26,7 @@ const packs = [
         category: "PACKS",
         price: 278.80,
         originalPrice: 340.00,
-        image: "assets/img/pack/packperformance.png",
+        image: "https://raw.githubusercontent.com/Miguels543/powerlab.github.io/refs/heads/main/assets/img/pack/packperformance.png",
         items: ["Pre-Entreno", "BCAA", "Proteína de Recuperación"],
         discount: "AHORRA 18%"
     }

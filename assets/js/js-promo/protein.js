@@ -10,7 +10,7 @@ const promocionesProteinas = [
         category: "PROTEINAS",
         originalPrice: 420,
         discountPercentage: 20,
-        image: "/assets/img/protein/iso.jpeg",
+        image: "assets/img/protein/iso.jpeg",
         description: "Proteína en polvo de alta calidad con un 80% de contenido proteico.",
         features: [
             "80% de contenido proteico",
@@ -18,10 +18,10 @@ const promocionesProteinas = [
             "Ideal para recuperación muscular"
         ],
         additionalImages: [
-            "/assets/img/protein/iso.jpeg",
-            "/assets/img/protein/iso-xp-choco.png",
-            "/assets/img/protein/iso-xp-chocolate.png",
-            "/assets/img/protein/iso-xp-vainilla.png",
+            "assets/img/protein/iso.jpeg",
+            "assets/img/protein/iso-xp-choco.png",
+            "assets/img/protein/iso-xp-chocolate.png",
+            "assets/img/protein/iso-xp-vainilla.png",
         ]
     },
     {
@@ -30,7 +30,7 @@ const promocionesProteinas = [
         category: "PROTEINAS",
         originalPrice: 480,
         discountPercentage: 25,
-        image: "/assets/img/protein/gold.jpeg",
+        image: "assets/img/protein/gold.jpeg",
         description: "Proteína 100% vegetal, perfecta para dietas vegetarianas y veganas.",
         features: [
             "Proteína 100% vegetal",
@@ -38,8 +38,8 @@ const promocionesProteinas = [
             "Rico en aminoácidos esenciales"
         ],
         additionalImages: [
-            "/assets/img/protein/gold.jpeg", 
-            "/assets/img/protein/gold.png"   
+            "assets/img/protein/gold.jpeg", 
+            "assets/img/protein/gold.png"   
         ]
     },
     {
@@ -48,7 +48,7 @@ const promocionesProteinas = [
         category: "PROTEINAS",
         originalPrice: 140,
         discountPercentage: 36,
-        image: "/assets/img/protein/whey.jpeg",
+        image: "assets/img/protein/whey.jpeg",
         description: "Proteína aislada de última generación, ultrapura y de rápida absorción.",
         features: [
             "Proteína aislada",
@@ -56,8 +56,8 @@ const promocionesProteinas = [
             "Rápida absorción"
         ],
         additionalImages: [
-            "/assets/img/protein/whey.jpeg",
-            "/assets/img/protein/hydro-whey.png"
+            "assets/img/protein/whey.jpeg",
+            "assets/img/protein/hydro-whey.png"
          ]
     }
 ];

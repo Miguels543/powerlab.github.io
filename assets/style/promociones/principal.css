@@ -1,8 +1,7 @@
-@import url(assets/style/index/variables.css);
-@import url(assets/style/index/nav.css);
-@import url(assets/style/index/cart.css);
-@import url(assets/style/index/produc.css);
+@import url(../index/variables.css);
+@import url(../index/nav.css);
+@import url(../index/cart.css);
+@import url(../index/produc.css);
 @import 'promociones.css';
-@import url(assets/style/index/footer.css);
-@import url(assets/style/index/responsive.css);
-
+@import url(../index/footer.css);
+@import url(../index/responsive.css);

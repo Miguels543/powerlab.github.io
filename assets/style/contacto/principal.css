@@ -1,7 +1,7 @@
-@import url(/assets/style/index/variables.css);
-@import url(/assets/style/index/nav.css);
-@import url(/assets/style/index/cart.css);
-@import url(/assets/style/index/produc.css);
+@import 'variables.css';
+@import 'nav.css';
+@import 'cart.css';
+@import 'produc.css';
 @import 'contacto.css';
-@import url(/assets/style/index/footer.css);
-@import url(/assets/style/index/responsive.css);
+@import 'footer.css';
+@import 'responsive.css';

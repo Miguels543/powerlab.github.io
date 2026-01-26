@@ -1,0 +1,21 @@
+/* ======================================
+   1. RESET Y VARIABLES GLOBALES
+====================================== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lato:wght@400;700&display=swap');
+
+:root{
+    --blue-color: #3498db;
+    --green-color: #51ff00;
+    --dark-blue: #2980b9;
+    --light-gray: #f5f5f5;
+    --medium-gray: #e0e0e0;
+    --dark-gray: #333;
+    --accent-color: #ff6b6b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}

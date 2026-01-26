@@ -10,7 +10,7 @@ const promocionesProteinas = [
         category: "PROTEINAS",
         originalPrice: 420,
         discountPercentage: 20,
-        image: "https://github.com/Miguels543/powerlab.github.io/blob/main/assets/img/protein/iso.jpeg",
+        image: "assets/img/protein/iso.jpeg",
         description: "Proteína en polvo de alta calidad con un 80% de contenido proteico.",
         features: [
             "80% de contenido proteico",
@@ -18,7 +18,7 @@ const promocionesProteinas = [
             "Ideal para recuperación muscular"
         ],
         additionalImages: [
-            "https://github.com/Miguels543/powerlab.github.io/blob/main/assets/img/protein/iso.jpeg",
+            "assets/img/protein/iso.jpeg",
             "assets/img/protein/iso-xp-choco.png",
             "assets/img/protein/iso-xp-chocolate.png",
             "assets/img/protein/iso-xp-vainilla.png",

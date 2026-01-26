@@ -67,7 +67,7 @@ const promociones = [
         category: "PROTEÍNAS",
         originalPrice: 580.00,
         discountPercentage: 27.6,
-        image: "/assets/img/product/promotion(4).jpg",
+        image: "assets/img/product/promotion(4).jpg",
         description: "Iso cool + Creatina dragón o la nutrex + shaker + preentreno o 2 energizantes. Proteína aislada de nueva generación con filtración avanzada que elimina grasas, carbohidratos y lactosa. Combinada con creatina premium, shaker profesional y preentreno o energizantes para maximizar tu rendimiento deportivo.",
         features: [
             "Proteína aislada >90% de pureza, mínimo contenido de grasas",

@@ -1,0 +1,155 @@
+
+/* ======================================
+   13. PRODUCTOS
+====================================== */
+.products-section {
+    padding: 4rem 5%;
+    background: white;
+    margin-top: 80px;
+}
+
+.products-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.products-header h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.products-header .sort-select {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0.5rem;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.product-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.product-info {
+    padding: 1.5rem;
+}
+
+.product-title {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.product-description {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.product-price {
+    font-size: 1.5rem;
+    color: #2e86de;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.buy-button {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    background: var(--blue-color);
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background: #012cb8;
+}
+
+.see-more-button {
+    background-color: transparent;
+    border: 1px solid blue;
+    width: 100%;
+    color: blue;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px 8px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.see-more-button:hover {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+
+/* ======================================
+   14. PAGINACIÓN
+====================================== */
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.pagination button {
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.pagination button.active {
+    background-color: var(--blue-color);
+    color: white;
+    border-color: var(--blue-color);
+}
+
+.pagination button:hover:not(.active):not([disabled]) {
+    background-color: #f0f0f0;
+}
+
+.pagination button[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

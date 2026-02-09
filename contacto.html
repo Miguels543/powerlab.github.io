@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerLab - Contacto</title>
+    <link rel="stylesheet" href="assets/style/contacto/principal.css">
+    <link rel="icon" href="assets/img/logo/logo.ico">
+    <!-- Script principal como módulo -->
+    <script src="assets/js/index/main.js" type="module" defer></script>
+    <script src="assets/js/index/faq.js" type="module" defer></script>
+</head>
+<body class="contact-page">
+    <div class="announcement-bar">
+        ¡DESCUENTAZO! 30% OFF en todos los productos
+    </div>
+    <nav>
+        <img src="assets/img/logo/logo.png" alt="PowerLab" class="logo">
+        <div class="menu-toggle">☰</div>
+        <div class="nav-links">
+            <a href="index.html">Inicio</a>
+            <a href="promociones.html">Promociones</a>
+            <a href="contacto.html" class="active">Contacto</a>
+            <a href="tienda.html">Tienda</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section para Contacto -->
+    <section class="contact-hero">
+        <h1>Contacto</h1>
+        <p class="subtitle">Estamos aquí para ayudarte. ¡Contáctanos!</p>
+    </section>
+
+    <!-- Sección de contacto principal -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info-2">
+                <h2>Información de Contacto</h2>
+                <p>Si tienes alguna pregunta sobre nuestros productos, envíos o cualquier otra consulta, no dudes en contactarnos.</p>
+                
+                <div class="contact-detail">
+                    <div class="contact-icon">📱</div>
+                    <div class="contact-text">
+                        <h3>WhatsApp</h3>
+                        <a href="https://wa.me/51994379232" target="_blank">+51 994379232</a>
+                    </div>
+                </div>
+                
+                <div class="contact-detail">
+                    <div class="contact-icon">📧</div>
+                    <div class="contact-text">
+                        <h3>Email</h3>
+                        <p>prlab.shop@hotmail.com</p>
+                    </div>
+                </div>
+                
+                <div class="contact-detail">
+                    <div class="contact-icon">🕐</div>
+                    <div class="contact-text">
+                        <h3>Horario de Atención</h3>
+                        <p>Lunes a Viernes: 9:00 am - 6:00 pm</p>
+                        <p>Sábados: 9:00 am - 1:00 pm</p>
+                    </div>
+                </div>
+                
+                <div class="social-contact">
+                    <h3>Síguenos en Redes Sociales</h3>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/derulos/" target="_blank" class="social-icon" title="@derulos">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                            <span>@derulos</span>
+                        </a>
+                        <a href="https://www.instagram.com/strongclub.pe/" target="_blank" class="social-icon" title="@strongclub.pe">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                            <span>@strongclub.pe</span>
+                        </a>
+                        <a href="https://instagram.com/" target="_blank" class="social-icon" title="@powerLab.pe">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                            <span>@powerLab.pe</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form-container">
+                <h2>Envíanos un Mensaje</h2>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="apellido">Apellido</label>
+                            <input type="text" id="apellido" name="apellido" required placeholder="Tu apellido">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" required placeholder="tucorreo@ejemplo.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Escribe tu mensaje aquí..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-button">
+                        <span>Enviar Mensaje</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mapa de ubicación (opcional) -->
+    <section class="map-section">
+        <div class="section-header">
+            <h2>Nuestra Ubicación</h2>
+            <p>Visítanos en nuestra tienda física</p>
+        </div>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3973.5195088980504!2d-80.61428452501754!3d-5.180682694796785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNcKwMTAnNTAuNSJTIDgwwrAzNic0Mi4yIlc!5e0!3m2!1ses-419!2spe!4v1741202790193!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="section-header centered">
+            <h2>Preguntas Frecuentes</h2>
+            <p>Respuestas a las consultas más comunes</p>
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>¿Cuánto tiempo tarda el envío?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Nuestros envíos suelen tardar de 24 a 48 horas hábiles, tanto para Lima Metropolitana como para provincia.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>¿Cuáles son los métodos de pago aceptados?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Aceptamos pagos mediante transferencia bancaria, Yape, Plin, tarjetas de crédito/débito y pago contra entrega en algunas zonas de Lima.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>¿Ofrecen asesoramiento sobre los productos?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>¡Sí! Contamos con especialistas en nutrición deportiva que pueden asesorarte sobre qué productos son los más adecuados para tus objetivos. Puedes contactarnos por WhatsApp o email para recibir asesoramiento personalizado.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>¿Tienen política de devoluciones?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Aceptamos devoluciones dentro de los 7 días posteriores a la recepción del producto, siempre que esté en su empaque original y sin abrir. Para iniciar una devolución, contáctanos por WhatsApp o email.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3 class="footer-title">PowerLab</h3>
+                <p class="footer-description">
+                    Suplementos deportivos de alta calidad para deportistas exigentes.
+                </p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/share/1ASR1aojeC/?mibextid=wwXIfr" target="_blank" class="social-link" aria-label="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                    </a>
+                    <a href="https://www.instagram.com/powerlab.pe?igsh=b2syeDVvY3pxbzcz&utm_source=qr" target="_blank" class="social-link" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                    <a href="https://www.tiktok.com/@powerlab.pe?_t=ZM-8uzUEyOuMGD&_r=1" target="_blank" class="social-link" aria-label="TikTok">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg>
+                    </a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=prlab.shop@hotmail.com" target="_blank" class="social-link" aria-label="Correo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3 class="footer-title">CONTÁCTANOS</h3>
+                <div class="contact-info">
+                    <p>+51 994379232</p>
+                    <p>prlab.shop@hotmail.com</p>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3 class="footer-title">MÉTODOS DE PAGO</h3>
+                <ul class="payment-methods">
+                    <li>✓ Tarjetas de crédito/débito</li>
+                    <li>✓ Transferencias bancarias</li>
+                    <li>✓ Yape / Plin</li>
+                    <li>✓ Pago contra entrega</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyright">
+            © 2025. Todos los derechos reservados.
+        </div>
+    </footer>
+<!-- Icono del carrito fijo -->
+    <div class="cart-icon-fixed" id="cart-icon">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjkiIGN5PSIyMSIgcj0iMSI+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIyMSIgcj0iMSI+PC9jaXJjbGU+PHBhdGggZD0iTTEgMWg0bDIuNjggMTMuMzlhMiAyIDAgMCAwIDIgMS42MWg5LjcyYTIgMiAwIDAgMCAyLTEuNjFMMjMgNkg2Ij48L3BhdGg+PC9zdmc+" alt="Cart">
+    </div>
+
+    <!-- Panel lateral del carrito -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <div class="cart-title">
+                <span>Carrito de Compras</span>
+            </div>
+            <button class="cart-close" id="cart-close">×</button>
+        </div>
+        <div id="cartItems">
+            <!-- Los items del carrito se insertarán aquí -->
+        </div>
+        <div class="cart-total-container">
+            <div class="cart-total">
+                Total: S/.<span id="cartTotal">0.00</span>
+            </div>
+            <a id="whatsappLink" class="buy-button" href="#" target="_blank">Comprar por WhatsApp</a>
+        </div>
+    </div>
+</body>
+</html>

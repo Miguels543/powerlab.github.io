@@ -1,0 +1,104 @@
+/* ======================================
+   6. PRODUCTOS DESTACADOS
+====================================== */
+.featured-products-section {
+    padding: 4rem 5%;
+    background: var(--light-gray);
+    position: relative;
+}
+
+/* Contenedor con scroll horizontal */
+.featured-products-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 1.5rem;
+    padding: 1rem 0.5rem;
+    margin: 0 -1rem;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: var(--blue-color) #f1f1f1;
+}
+
+/* Estilizar scrollbar para Chrome, Safari, etc. */
+.featured-products-scroll::-webkit-scrollbar {
+    height: 8px;
+}
+
+.featured-products-scroll::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.featured-products-scroll::-webkit-scrollbar-thumb {
+    background: var(--blue-color);
+    border-radius: 4px;
+}
+
+.featured-products-scroll::-webkit-scrollbar-thumb:hover {
+    background: var(--dark-blue);
+}
+
+/* Tarjetas de productos destacados */
+.featured-product {
+    flex: 0 0 280px;
+    min-width: 280px;
+    max-width: 280px;
+    margin-bottom: 0.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featured-product:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+/* Enlace para ver todos los productos */
+.view-all-link {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.view-all-link .btn-outline {
+    border: 2px solid var(--blue-color);
+    color: var(--blue-color);
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.view-all-link .btn-outline:hover {
+    background: var(--blue-color);
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Botones de navegación del scroll */
+.scroll-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.scroll-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: var(--blue-color);
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.scroll-button:hover {
+    background: var(--dark-blue);
+    transform: scale(1.1);
+}

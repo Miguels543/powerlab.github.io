@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Maquillaje</title>
+    <link rel="stylesheet" href="assets/style/index/principal.css">
+    <link rel="icon" href="assets/img/logo/logo.ico">
+    <script src="assets/js/index/main.js" type="module" defer></script>
+</head>
+<body>
+    <div class="announcement-bar">
+        ¡DESCUENTAZO! 30% OFF en todos los productos
+    </div>
+    <nav>
+        <img src="assets/img/logo/logo.png" alt="PowerLab" class="logo">
+        <div class="menu-toggle">☰</div>
+        <div class="nav-links">
+            <a href="index.html">Inicio</a>
+            <a href="promociones.html">Promociones</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="tienda.html">Tienda</a>
+        </div>
+    </nav>
+
+      <!-- El resto del HTML se mantiene igual hasta la sección de productos -->
+    
+    <section class="products-section">
+        <div class="products-header">
+            <h2>Nuestros Productos</h2>
+            <select class="sort-select" id="sort-select">
+                <option value="predeterminado">Predeterminado</option>
+                <option value="menor">Precio (de menor a mayor)</option>
+                <option value="mayor">Precio (de mayor a menor)</option>
+                <option value="ultimo">Último</option>
+            </select>
+            <select class="sort-select" id="category-select">
+                <option value="TODOS">TODOS</option>
+                <option value="PROTEINAS">PROTEINAS</option>
+                <option value="CREATINAS">CREATINAS</option>
+                <option value="PRE-ENTRENOS">PRE-ENTRENOS</option>
+                <option value="GANADORES DE PESO">GANADORES DE PESO</option>
+                <option value="QUEMADORES DE GRASA">QUEMADORES DE GRASA</option>
+                <option value="AMINOACIDOS">AMINOACIDOS</option>
+                <option value="ENERGIZANTES">ENERGIZANTES</option>
+                <option value="SALUD">SALUD</option>
+                <option value="ACCESORIOS">ACCESORIOS</option>
+            </select>
+        </div>
+        
+        <div class="products" id="product-container">
+            <!-- Los productos se generarán dinámicamente aquí -->
+        </div>
+
+        <div class="pagination" id="pagination">
+            <!-- La paginación se generará dinámicamente aquí -->
+        </div>
+    </section>
+
+    <!-- Icono del carrito fijo -->
+    <div class="cart-icon-fixed" id="cart-icon">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjkiIGN5PSIyMSIgcj0iMSI+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIyMSIgcj0iMSI+PC9jaXJjbGU+PHBhdGggZD0iTTEgMWg0bDIuNjggMTMuMzlhMiAyIDAgMCAwIDIgMS42MWg5LjcyYTIgMiAwIDAgMCAyLTEuNjFMMjMgNkg2Ij48L3BhdGg+PC9zdmc+" alt="Cart">
+    </div>
+
+    <!-- Panel lateral del carrito -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <div class="cart-title">
+                <span>Carrito de Compras</span>
+            </div>
+            <button class="cart-close" id="cart-close">×</button>
+        </div>
+        <div id="cartItems">
+            <!-- Los items del carrito se insertarán aquí -->
+        </div>
+        <div class="cart-total-container">
+            <div class="cart-total">
+                Total: S/.<span id="cartTotal">0.00</span>
+            </div>
+            <a id="whatsappLink" class="buy-button" href="#" target="_blank">Comprar por WhatsApp</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3 class="footer-title">PowerLab</h3>
+                <p class="footer-description">
+                    Suplementos deportivos de alta calidad para deportistas exigentes.
+                </p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/share/1ASR1aojeC/?mibextid=wwXIfr" target="_blank" class="social-link" aria-label="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                    </a>
+                    <a href="https://www.instagram.com/powerlab.pe?igsh=b2syeDVvY3pxbzcz&utm_source=qr" target="_blank" class="social-link" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                    <a href="https://www.tiktok.com/@powerlab.pe?_t=ZM-8uzUEyOuMGD&_r=1" target="_blank" class="social-link" aria-label="TikTok">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg>
+                    </a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=prlab.shop@hotmail.com" target="_blank" class="social-link" aria-label="Correo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3 class="footer-title">CONTÁCTANOS</h3>
+                <div class="contact-info">
+                    <p>+51 994379232</p>
+                    <p>prlab.shop@hotmail.com</p>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3 class="footer-title">MÉTODOS DE PAGO</h3>
+                <ul class="payment-methods">
+                    <li>✓ Tarjetas de crédito/débito</li>
+                    <li>✓ Transferencias bancarias</li>
+                    <li>✓ Yape / Plin</li>
+                    <li>✓ Pago contra entrega</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyright">
+            © 2025. Todos los derechos reservados.
+        </div>
+    </footer>
+</body>
+</html>

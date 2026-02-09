@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerLab - Suplementos Deportivos</title>
+    <link rel="stylesheet" href="assets/style/index/principal.css">
+    <link rel="icon" href="assets/img/logo/logo.ico">
+    <!-- Script principal como módulo -->
+    <script src="assets/js/index/main.js" type="module" defer></script>
+</head>
+<body class="home-page">
+    <div class="announcement-bar">
+        ¡DESCUENTAZO! 30% OFF en todos los productos
+    </div>
+    <nav>
+        <img src="assets/img/logo/logo.png" alt="PowerLab" class="logo">
+        <div class="menu-toggle">☰</div>
+        <div class="nav-links">
+            <a href="index.html" class="active">Inicio</a>
+            <a href="promociones.html">Promociones</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="tienda.html">Tienda</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <p class="small-text">La mejor calidad en suplementos deportivos</p>
+        <h1>POWERLAB</h1>
+        <p class="subtitle">Suplementos de alto rendimiento para deportistas exigentes</p>
+        <div class="button-group">
+            <a href="tienda.html" class="btn btn-primary">Ver Productos</a>
+            <a href="promociones.html" class="btn btn-outline">Conoce más</a>
+        </div>
+    </section>
+
+    <!-- Promociones Section -->
+    <section class="promotions-section">
+        <div class="section-header">
+            <h2>Promociones Especiales</h2>
+            <p>Aprovecha nuestras ofertas por tiempo limitado</p>
+        </div>
+        <div class="products" id="promociones-container">
+            <!-- Las promociones se generarán dinámicamente aquí -->
+        </div>
+    </section>
+
+    <!-- Categorías Destacadas -->
+    <section class="categories">
+        <h2>Categorías Principales</h2>
+        <p>Explora nuestra selección de suplementos deportivos premium para potenciar tu rendimiento.</p>
+        <div class="categories-grid">
+            <div class="category-card large">
+                <img src="assets/img/hero/gym-1.webp" alt="Proteínas">
+                <div class="category-content">
+                    <h3>Proteínas</h3>
+                    <p>Las mejores proteínas para desarrollar y recuperar tu masa muscular.</p>
+                    <a href="tienda.html?categoria=PROTEINAS" class="btn btn-outline">Ver Proteínas</a>
+                </div>
+            </div>
+            <div class="category-card">
+                <img src="assets/img/hero/gym-2.webp" alt="Creatinas">
+                <div class="category-content">
+                    <h3>Creatinas</h3>
+                    <p>Mejora tu fuerza y potencia con nuestra selección de creatinas.</p>
+                    <a href="tienda.html?categoria=CREATINAS" class="btn btn-outline">Ver Creatinas</a>
+                </div>
+            </div>
+            <div class="category-card">
+                <img src="assets/img/hero/gym-3.webp" alt="Pre-entrenos">
+                <div class="category-content">
+                    <h3>Pre-entrenos</h3>
+                    <p>Maximiza tu energía y enfoque durante tus entrenamientos.</p>
+                    <a href="tienda.html?categoria=PRE-ENTRENOS" class="btn btn-outline">Ver Pre-entrenos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Productos Destacados -->
+    <section class="featured-products-section">
+        <div class="section-header">
+            <h2>Productos Destacados</h2>
+            <p>Desliza para ver nuestra selección de productos populares</p>
+        </div>
+        <div id="featured-products-container"></div>
+    </section>
+
+    <!-- Packs y Combos -->
+    <section class="packs-section">
+        <div class="section-header">
+            <h2>Packs y Combos</h2>
+            <p>Aprovecha nuestros packs con descuentos especiales</p>
+        </div>
+        <div class="products" id="packs-container">
+            <!-- Los packs se generarán dinámicamente aquí -->
+        </div>
+    </section>
+
+    <!-- Accesorios 
+    <section class="accessories-section">
+        <div class="section-header">
+            <h2>Accesorios para Entrenamiento</h2>
+            <p>Complementa tus suplementos con los mejores accesorios</p>
+        </div>
+        <div class="accessories-scroll">
+            <div class="products" id="accesorios-container">
+                !!!Los accesorios se generarán dinámicamente aquí!!! 
+            </div>
+        </div>
+    </section>
+    -->
+    <!-- Compra Fácil -->
+    <section class="easy-buy-section">
+        <div class="section-header">
+            <h2>Compra Fácil</h2>
+            <p>Encuentra rápidamente lo que necesitas según tu objetivo</p>
+        </div>
+        <div class="easy-buy-grid">
+            <div class="easy-buy-card">
+                <div class="easy-buy-icon">💪</div>
+                <h3>Ganancia Muscular</h3>
+                <p>Suplementos específicos para aumentar masa muscular</p>
+                <a href="tienda.html?objetivo=muscular" class="btn btn-outline">Ver productos</a>
+            </div>
+            <div class="easy-buy-card">
+                <div class="easy-buy-icon">🔥</div>
+                <h3>Pérdida de Grasa</h3>
+                <p>Productos que te ayudarán a definir y quemar grasa</p>
+                <a href="tienda.html?objetivo=definicion" class="btn btn-outline">Ver productos</a>
+            </div>
+            <div class="easy-buy-card">
+                <div class="easy-buy-icon">⚡</div>
+                <h3>Energía y Resistencia</h3>
+                <p>Mejora tu rendimiento y resistencia en entrenamientos</p>
+                <a href="tienda.html?objetivo=energia" class="btn btn-outline">Ver productos</a>
+            </div>
+            <div class="easy-buy-card">
+                <div class="easy-buy-icon">🔄</div>
+                <h3>Recuperación</h3>
+                <p>Acelera tu recuperación entre sesiones de entrenamiento</p>
+                <a href="tienda.html?objetivo=recuperacion" class="btn btn-outline">Ver productos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Por qué elegirnos -->
+    <section class="why-us">
+        <div class="section-header">
+            <h2>¿Por qué elegir PowerLab?</h2>
+            <p>Somos tu tienda de suplementación de confianza</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🔍</div>
+                <h3>Calidad Garantizada</h3>
+                <p>Todos nuestros productos son seleccionados cuidadosamente y certificados por su calidad.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🚚</div>
+                <h3>Envío Rápido</h3>
+                <p>Entregamos tus productos en el menor tiempo posible para que no detengas tu entrenamiento.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">💪</div>
+                <h3>Asesoramiento</h3>
+                <p>Contamos con expertos que te ayudarán a elegir los mejores suplementos para tus objetivos.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">💰</div>
+                <h3>Precios Competitivos</h3>
+                <p>Ofrecemos los mejores precios del mercado sin comprometer la calidad.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Icono del carrito fijo -->
+    <div class="cart-icon-fixed" id="cart-icon">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjkiIGN5PSIyMSIgcj0iMSI+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMjAiIGN5PSIyMSIgcj0iMSI+PC9jaXJjbGU+PHBhdGggZD0iTTEgMWg0bDIuNjggMTMuMzlhMiAyIDAgMCAwIDIgMS42MWg5LjcyYTIgMiAwIDAgMCAyLTEuNjFMMjMgNkg2Ij48L3BhdGg+PC9zdmc+" alt="Cart">
+    </div>
+
+    <!-- Panel lateral del carrito -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <div class="cart-title">
+                <span>Carrito de Compras</span>
+            </div>
+            <button class="cart-close" id="cart-close">×</button>
+        </div>
+        <div id="cartItems">
+            <!-- Los items del carrito se insertarán aquí -->
+        </div>
+        <div class="cart-total-container">
+            <div class="cart-total">
+                Total: S/.<span id="cartTotal">0.00</span>
+            </div>
+            <a id="whatsappLink" class="buy-button" href="#" target="_blank">Comprar por WhatsApp</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3 class="footer-title">PowerLab</h3>
+                <p class="footer-description">
+                    Suplementos deportivos de alta calidad para deportistas exigentes.
+                </p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/share/1ASR1aojeC/?mibextid=wwXIfr" target="_blank" class="social-link" aria-label="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                    </a>
+                    <a href="https://www.instagram.com/powerlab.pe?igsh=b2syeDVvY3pxbzcz&utm_source=qr" target="_blank" class="social-link" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                    <a href="https://www.tiktok.com/@powerlab.pe?_t=ZM-8uzUEyOuMGD&_r=1" target="_blank" class="social-link" aria-label="TikTok">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg>
+                    </a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=prlab.shop@hotmail.com" target="_blank" class="social-link" aria-label="Correo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3 class="footer-title">CONTÁCTANOS</h3>
+                <div class="contact-info">
+                    <p>+51 994379232</p>
+                    <p>prlab.shop@hotmail.com</p>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3 class="footer-title">MÉTODOS DE PAGO</h3>
+                <ul class="payment-methods">
+                    <li>✓ Tarjetas de crédito/débito</li>
+                    <li>✓ Transferencias bancarias</li>
+                    <li>✓ Yape / Plin</li>
+                    <li>✓ Pago contra entrega</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyright">
+            © 2025. Todos los derechos reservados.
+        </div>
+    </footer>
+</body>
+</html>
